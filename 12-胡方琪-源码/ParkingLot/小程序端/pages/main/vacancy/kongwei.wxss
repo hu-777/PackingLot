@@ -1,0 +1,8 @@
+/* pages/main/vacancy/kongwei.wxss */
+.box{
+  margin-top: 150rpx;
+}
+.text{
+  font-size: x-large;
+  margin: 50rpx 30rpx;
+}

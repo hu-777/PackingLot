@@ -1,0 +1,10 @@
+<!--pages/index/index.wxml-->
+<text>智能停车场系统</text>
+<view class="container">
+  <view class="title">Hi!欢迎使用智能停车场系统</view>
+  <image class="background-image" src="../images/background1.jpg" mode="aspectFill"></image>
+  <view class="button-container">
+    <button class="login-button" bindtap="navigateToLogin">登录</button>
+    <button class="register-button" bindtap="navigateToRegister">注册</button>
+  </view>
+</view>

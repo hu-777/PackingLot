@@ -1,0 +1,5 @@
+<!--pages/main/reservation/yuyue.wxml-->
+<text>智能停车场系统</text>
+<view class="book">  
+<button class="button" bindtap="showToast">我要预约</button>
+</view>

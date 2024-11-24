@@ -1,0 +1,9 @@
+<!--pages/mine/dindan/dindan.wxml-->
+<text>智能停车场系统</text>
+<view class="box">
+  <view name="enterTime" class="text">车辆进场时间：
+  2024年5月16日17：00{{item}}</view>
+  <view name="outTime" class="text">车辆出场时间：{{item}}</view>
+  <view name="totalTime" class="text">停车时长：00小时03分钟48秒{{item}}</view>
+  <view name="totalMoney" class="text">计费金额：0元{{item}}</view>
+</view>

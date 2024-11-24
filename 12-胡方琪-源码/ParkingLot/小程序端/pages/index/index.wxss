@@ -1,0 +1,49 @@
+/* pages/index/index.wxss */
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-image {
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity:90%;
+}
+.title{
+  margin-top: 20px;
+  font-size:25px;
+  color:rgb(247, 242, 242);
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 500rpx; 
+}
+
+.login-button, .register-button {
+  width: 150rpx; 
+  height: 100rpx;
+  border-radius: 50rpx; 
+  background-color: #66CCFF; 
+  color: white;
+  text-align: center;
+  line-height: 60rpx; 
+  margin-bottom: 20rpx;
+}
+
+button:hover
+{
+    color:#5a81a8;
+}

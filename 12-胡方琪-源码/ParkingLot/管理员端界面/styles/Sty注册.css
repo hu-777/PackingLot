@@ -1,0 +1,69 @@
+html {
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+}
+h1{
+    font-size:60px;
+    color:midnightblue;
+    margin:0 auto;
+    text-align: center;
+}
+body{
+    background:url(背景2.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    opacity:90%;
+}
+form
+{
+    width:400px;
+    height:300px;
+    background-color:rgb(178, 193, 236);
+    padding:30px 50px 130px 50px;
+    font-size:18px;
+    border-radius:10px;
+    margin:100px auto; 
+    opacity:80%;
+}
+#password1,#password2,#username
+{
+    height:40px;
+    width:300px;
+    padding:0 35px;
+    background:#F8F9F9;
+    font-size:15px;
+    box-shadow:0px 1px 1px rgba(225,225,225,0.7),inset 0px 2px 5px #aaaaaa;
+    border-radius:5px;
+    border:none;
+    color:rgb(3,34,80);
+}
+input[type="submit"]
+{
+    width:110px;
+    height:40px;
+    text-align:center;
+    border-radius:5px;
+    border:#104376;
+    margin:10px;
+    font:16px;
+    background-image:linear-gradient(120deg,#dbbcf9 0%,#407cb7 100%);
+}
+input[type="submit"]:hover
+{
+    color:#2a3f54;
+}
+input[type="button"]
+{
+    width:110px;
+    height:40px;
+    text-align:center;
+    border-radius:5px;
+    border:#104376;
+    margin:10px;
+    font:16px;
+    background-image:linear-gradient(120deg,#dbbcf9 0%,#407cb7 100%);
+}
+input[type="button"]:hover
+{
+    color:#2a3f54;
+}

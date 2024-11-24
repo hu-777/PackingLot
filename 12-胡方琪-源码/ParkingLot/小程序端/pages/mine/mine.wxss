@@ -1,0 +1,177 @@
+.head {
+  width: 100rpx;
+  height: 100rpx;
+  padding-left: 50rpx;
+  padding-top: 30px;
+}
+
+.account{
+  font-size: 50rpx;
+  padding: 10px;
+}
+
+.top-box {
+  position: relative;
+  z-index: -1;
+  background-color: #4fa2f0;
+  padding-top:100rpx;
+  padding-bottom: 30rpx;
+  height: 200rpx;
+}
+
+.level {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.arrow {
+  color: #f1f1f1;
+  font-size: 26rpx;
+}
+.nav-box {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.nav image {
+  width: 40%;
+  height: auto;
+  background-color: white;
+  border-radius: 20rpx;
+  padding: 15rpx;
+}
+/*菜单栏*/
+.menu-container {  
+  display: flex;  
+  justify-content: space-around;  
+  padding: 20rpx;  
+  background-color: white;  
+}  
+  
+.menu-item {  
+  display: flex;  
+  flex-direction: column;  
+  align-items: center;  
+  padding: 10rpx;  
+}  
+  
+.menu-icon {  
+  width: 50rpx; 
+  height: 50rpx;  
+  margin-bottom: 10rpx;  
+}  
+  
+.menu-text {  
+  font-size: 35rpx;  
+  color: #333;  
+}
+
+.nav text {
+  margin-top: 15rpx;
+  font-size: 30rpx;
+}
+
+/* 列表信息 */
+.box {
+  padding-top: 200px;
+  margin: 20rpx;
+  margin-top: 100rpx;
+}
+.top-box{
+  padding-top: 50px;
+}
+
+.list-title {
+  margin: 0 10rpx;
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.account {
+  margin-left: 10rpx;
+  font-size: 32rpx;
+  color: #303133;
+}
+
+.box {
+  border-top-left-radius: 50rpx;
+  border-top-right-radius: 50rpx;
+  background-color: white;
+  margin-top: -70rpx;
+  padding: 20rpx;
+}
+
+.title {
+  font-size: 30rpx;
+  font-weight: bold;
+  margin: 20rpx 10rpx;
+}
+
+.left{
+   padding-left: 15px;
+}
+
+.tip {
+  font-size: 24rpx;
+  color: gray;
+  margin: 10rpx;
+  padding-right: 10px;
+}
+
+/* 菜单栏 */
+.nav-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 30rpx;
+  border-bottom: 1rpx solid #f4f4f5;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  border-left: 1rpx solid #f4f4f5;
+  padding: 10rpx 0;
+}
+
+.nav:first-child {
+  border-left: 1rpx solid transparent;
+}
+
+.gray {
+  margin-top: 15rpx;
+  font-size: 30rpx;
+  color: #82848a;
+}
+
+.row {
+  border-bottom: 1rpx solid #f4f4f5;
+  padding: 25rpx 5rpx;
+}
+
+.left {
+  font-size: 30rpx;
+  color: #303133;
+}
+
+.read {
+  background-color: #f1f1f1;
+  padding: 2rpx 15rpx;
+  border-radius: 50rpx;
+}
+.menu-text2{
+  font-size: 30rpx;
+  padding-left: 35rpx;
+  padding-top: 20rpx;
+}

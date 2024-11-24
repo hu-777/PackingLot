@@ -1,0 +1,47 @@
+<view class="top-box">
+  <view class="level">
+    <view class="level">
+      <image class="head" src="../images/填选购人.png" mode="widthFix"></image>
+      <view class="account">xxx</view>
+    </view>
+    <view class="arrow">▶</view>
+  </view>
+</view>
+<view class="box">
+  <view class="level">
+    <view class="title">信息</view>
+    <view class="tip">全部 ▶</view>
+  </view>
+  </view>
+  <!-- 菜单栏 -->
+  <view class="menu-container">  
+    <navigator url="/pages/mine/dindan/dindan" open-type="navigate" class="menu-item">  
+    <image src="../images/进行中.png" class="menu-icon"></image>  
+    <text class="menu-text">进行中</text>  
+  </navigator> 
+  <navigator url="/pages/page1/page1" open-type="navigate" class="menu-item">  
+    <image src="../images/支付 钱包 待支付.png" class="menu-icon"></image>  
+    <text class="menu-text">待支付</text>  
+  </navigator>  
+  <navigator url="/pages/page2/page2" open-type="navigate" class="menu-item">  
+    <image src="../images/分享.png" class="menu-icon"></image>  
+    <text class="menu-text">历史订单</text>  
+  </navigator>  
+  <navigator url="/pages/page2/page2" open-type="navigate" class="menu-item">  
+    <image src="../images/支付订金.png" class="menu-icon"></image>  
+    <text class="menu-text">充值</text>  
+  </navigator> 
+</view>
+  <!-- 其他 -->
+  <view class="level row">
+    <view class="left">消息提示</view>
+    <view class="tip read">未读</view>
+  </view>
+  <view class="level row">
+    <view class="left">退出登录</view>
+    <view class="tip">▶</view>
+  </view>
+  <view class="level row">
+    <view class="left">联系我们</view>
+    <view class="tip">▶</view>
+</view>

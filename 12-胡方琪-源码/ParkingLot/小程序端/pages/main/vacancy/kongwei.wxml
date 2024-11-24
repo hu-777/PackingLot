@@ -1,0 +1,7 @@
+<!--pages/main/vacancy/kongwei.wxml-->
+<text>智能停车场系统</text>
+<view class="box">
+  <view name="total" class="text">总车位：24{{item}}</view>
+  <view name="vacancy" class="text">当前剩余空位：23{{item}}</view>
+  <view name="keyuyue" class="text">当前可预约车位：23{{item}}</view>
+</view>

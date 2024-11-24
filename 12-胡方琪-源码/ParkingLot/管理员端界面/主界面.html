@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scales=1.0">
+        <title>智能停车场管理系统</title>
+        <link href="styles/主界面.css" rel="stylesheet" />
+    </head>
+    <body>
+         <!--主界面-->
+         <form action="#" method="post">
+            <h1>智能停车场管理系统</h1>
+                <div id="parkingInfo">
+                    <p>当前时间：<span id="currentTime"></span>
+                    </p>
+                    <p>总车位：24<span id="totalParkingSpace"></span>
+                    </p>                    
+                    <p>剩余车位:23<span id="remainingParkingSpace"></span>
+                     </p>
+                </div>
+                <div>
+                    <div id="output"></div>  
+                    <button id="openCamera">打开摄像头</button>
+                    <button id="closeCamera">关闭摄像头</button>
+                </div>
+        </form>
+        <script src="scripts/主界面.js" defer></script>     
+    </body>
+</html>

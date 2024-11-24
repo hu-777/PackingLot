@@ -1,0 +1,62 @@
+html {
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+}
+h1{
+    font-size:50px;
+    color:midnightblue;
+    margin:0 auto;
+    text-align: center;
+}
+body{
+    background:url(背景.jpg);
+    background-repeat:no-repeat;
+    background-size :100%;
+    opacity:90%;
+}
+form{
+    width:600px;
+    height:300px;
+    background-color:rgb(178, 193, 236);
+    padding:50px 50px 100px 50px;
+    font-size:18px;
+    border-radius:10px;
+    margin:100px auto; 
+    opacity:80%;
+}
+img{
+    float:left;
+    margin:0 30px 0 0;
+    width:200px;
+    height:300px;
+    border-radius:10px;
+}
+div.parkingInfo{
+    height: 35px;
+    width:300px;
+    padding:0 35px;
+    border:none;
+    background:#F8F9F9;
+    font-size:15px;
+    box-shadow:0px 1px 1px rgba(225,225,225,0.7),inset 0px 2px 5px #aaaaaa;
+    border-radius:5px;
+    color:rgb(3, 34, 80);
+}
+button
+{
+    width:110px;
+    height:40px;
+    text-align:center;
+    border-radius:5px;
+    border:#366ea5;
+    margin:10px;
+    font-size:15px;
+    background-image:linear-gradient(120deg,#dbbcf9 0%,#407cb7 100%);
+}
+button:hover
+{
+    color:#2a3f54;
+}
+a{
+    font-size:15px;
+}

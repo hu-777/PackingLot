@@ -1,0 +1,5 @@
+/* pages/main/map/ditu.wxss */
+image{
+  height: 500rpx;
+  width: 700rpx;
+}
